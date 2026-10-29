@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="60" y1="30" x2="1120" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#29230f" />
+      <stop offset="1" stop-color="#090b0a" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 420 -560 0 840 270)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#edbd65" stop-opacity=".32" />
+      <stop offset="1" stop-color="#edbd65" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v800H0z" />
+  <path fill="url(#glow)" d="M0 0h1200v800H0z" />
+  <g stroke="#f1e4c2" stroke-opacity=".13">
+    <path d="M120 180h960M120 280h960M120 380h960M120 480h960M120 580h960M120 680h960" />
+  </g>
+  <text x="100" y="100" fill="#f1f0eb" font-family="Arial,sans-serif" font-size="24" letter-spacing="7">ENERGY CONSUMPTION · POWER BI</text>
+  <path d="M155 650V170M155 650h920" stroke="#f1e4c2" stroke-opacity=".58" stroke-width="3" />
+  <path d="m210 540 125-88 125 46 125-176 125 101 125-148 125 38" stroke="#edbd65" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <g fill="#f4d893">
+    <circle cx="210" cy="540" r="11" />
+    <circle cx="335" cy="452" r="11" />
+    <circle cx="460" cy="498" r="11" />
+    <circle cx="585" cy="322" r="11" />
+    <circle cx="710" cy="423" r="11" />
+    <circle cx="835" cy="275" r="11" />
+    <circle cx="960" cy="313" r="11" />
+  </g>
+  <rect x="900" y="465" width="40" height="185" rx="8" fill="#edbd65" fill-opacity=".28" />
+  <rect x="960" y="390" width="40" height="260" rx="8" fill="#edbd65" fill-opacity=".5" />
+  <rect x="1020" y="315" width="40" height="335" rx="8" fill="#edbd65" fill-opacity=".76" />
+  <text x="155" y="735" fill="#f1e4c2" fill-opacity=".7" font-family="Arial,sans-serif" font-size="18" letter-spacing="5">INTERNSHIP PROJECT · TREND ANALYSIS</text>
+</svg>
